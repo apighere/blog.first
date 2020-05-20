@@ -13,13 +13,13 @@ cd docs/.vuepress/dist
 # echo 'www.yourwebsite.com' > CNAME
 
 git init
+git config user.name "apighere"
+git config user.email "1281210085@qq.com"
 git add -A
 git commit -m 'deploy'
 
 # 如果你想要部署到 https://USERNAME.github.io
-git push -f git@github.com:apighere/apighere.github.io.git
+git push -f git@github.com:apighere/apighere.github.io.git master
 
-# 如果发布到 https://USERNAME.github.io/<REPO>  REPO=github上的项目
-# git push -f git@github.com:apighere/apighere.github.io.git
 
 cd -
