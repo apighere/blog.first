@@ -7,7 +7,13 @@ module.exports = {
       logo: '/qq1.jpg',  // 左上角logo
       nav:[ // 导航栏配置
         {text: '首页', link: '/' },
-        {text: 'C基础', link: '/Cbasics/' },
+        {text: 'C基础',
+        items:[
+          {text:'C基础（上）',link:'/Cbasics/Cbasics1/C基础（上）.md'},
+          {text:'C基础（下）',link:'/Cbasics/Cbasics2/C基础（下）.md'}
+
+        ] 
+      },
         //{text: '简书主页', link: 'https://www.jianshu.com/u/0ce18d709dd5'}      
       ],
       sidebar: 'auto', // 侧边栏配置
