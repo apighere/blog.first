@@ -14,6 +14,13 @@ module.exports = {
 
         ] 
       },
+      {text: 'C提高',
+        items:[
+          {text:'C提高',link:'/Chigh/Chigh/C提高0615.md'},
+          {text:'数据结构',link:'/Chigh/datastructure/数据结构0615.md'}
+
+        ] 
+      },
         //{text: '简书主页', link: 'https://www.jianshu.com/u/0ce18d709dd5'}      
       ],
       sidebar: 'auto', // 侧边栏配置
